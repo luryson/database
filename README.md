@@ -22,7 +22,7 @@
         
         
 ## DDL操作说明
-> 说明: DDL保存在一个仓库中（`./migration/scripts`），保证各个环境之间数据库结果的一致
+> 说明: DDL保存在一个仓库中（`./migration/scripts`），保证各个环境之间数据库结构的一致
 #### 命令行工具
 > * *unix: `./migrate`
 > * windows: `migrate`
