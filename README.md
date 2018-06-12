@@ -15,10 +15,10 @@
             |-production        # 生产环境数据仓库
                 |-evironments   # 环境配置
                 |-scripts       # 迁移脚本  
-        migrate                 # *nix环境下执行ddl迁移的命令
-        migrate.cmd             # windows环境下执行ddl迁移的命令
-        seed                    # *nix环境下执行dml迁移的命令
-        seed.cmd                # windows环境下执行dml迁移的命令
+        migrate                 # *nix环境下执行ddl迁移
+        migrate.cmd             # windows环境下执行ddl迁移
+        seed                    # *nix环境下执行dml迁移
+        seed.cmd                # windows环境下执行dml迁移
         
         
 ## DDL操作说明
