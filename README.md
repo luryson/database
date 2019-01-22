@@ -110,9 +110,12 @@ Commands:
 * 新增环境，拷贝 `./seeds`下任意目录后，修改对应的`environments/delopment.properties`文件
 * 修改 `url` `username` `password` 三项，其他配置项按需调整 
 
+#### 注意事项：
+* 不同环境的版本号建议保持一致，便于排查；本地开发时，在development目录下`new`出新的迁移脚本，然后拷贝至其他环境对应的目录下；
+
 #### 其余使用请参考 DDL 操作说明
 
 
-
-#### 注意：
+<br/>
+## 注意：
 > migration和seeds目录下的`${environment.properties}`配置有所不同，新增环境配置时请注意拷贝对应的配置或者目录，请勿串用
