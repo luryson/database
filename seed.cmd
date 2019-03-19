@@ -72,7 +72,7 @@ if "%JAVACMD%"=="" set JAVACMD=java
 
 if "%REPO%"=="" set REPO=%BASEDIR%\lib
 
-set CLASSPATH="%BASEDIR%"\etc;"%REPO%"\mybatis-3.4.6.jar;"%REPO%"\mybatis-migrations-3.3.5-SNAPSHOT.jar
+set CLASSPATH="%BASEDIR%"\etc;"%REPO%"\mybatis-3.4.6.jar;"%REPO%"\mybatis-migrations-3.3.6-SNAPSHOT.jar
 
 set ENDORSED_DIR=lib
 if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%

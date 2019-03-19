@@ -97,7 +97,7 @@ then
   REPO="$BASEDIR"/lib
 fi
 
-CLASSPATH="$BASEDIR"/etc:"$REPO"/mybatis-3.4.6.jar:"$REPO"/mybatis-migrations-3.3.5-SNAPSHOT.jar
+CLASSPATH="$BASEDIR"/etc:"$REPO"/mybatis-3.4.6.jar:"$REPO"/mybatis-migrations-3.3.6-SNAPSHOT.jar
 
 ENDORSED_DIR=lib
 if [ -n "$ENDORSED_DIR" ] ; then
